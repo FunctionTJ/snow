@@ -1,7 +1,7 @@
 let tcanvas=document.querySelector('canvas');
 let pen=tcanvas.getContext('2d');
 let w=window.innerWidth;
-let h=window.innerHeight;
+let h=window.innerHeight*1.2;
 let tw=w+15;
 let th=h+15;
 
@@ -9,7 +9,7 @@ tcanvas.width=w;
 tcanvas.height=h;
             
 let arr=[];
-for(let i=0;i<200;i++){
+for(let i=0;i<230;i++){
     arr.push({
         x:Math.random()*w,
         y:Math.random()*h,
@@ -35,7 +35,7 @@ let draw= ()=>{
     
 }
 let chg=()=>{
-    for(let i=0;i<200;i++){
+    for(let i=0;i<230;i++){
         let er=arr[i];
         er.x += Math.random()*3+1;
         er.y += Math.random()*3+1;
