@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel='stylesheet' href='snoe.css'>
+        <style>
+            body{
+                background:#5B5E80;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas></canvas>
+        <script src='snow.js'>
+        </script>
+    </body>
+</html>
